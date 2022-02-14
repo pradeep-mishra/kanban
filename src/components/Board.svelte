@@ -56,7 +56,7 @@
   .board {
     display: flex;
     flex-direction: column;
-    margin: 0px 5px;
+    margin: 0px 5px 0px 0px;
     min-height: 400px;
     width: 25%;
     border-radius: 3px;
