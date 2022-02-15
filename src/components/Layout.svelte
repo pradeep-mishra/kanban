@@ -25,8 +25,10 @@
   main {
     min-height: 100%;
     width: 100%;
-    display: grid;
+    min-width: 768px;
+    /*display: grid;
     grid-template-columns: 64px 1fr;
+    */
   }
 
   .container {
@@ -37,7 +39,7 @@
   }
   .content {
     height: 100%;
-    padding-left: 20px;
+    padding-left: 80px;
     padding-right: 20px;
     display: flex;
     flex-direction: column;

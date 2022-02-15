@@ -1,10 +1,6 @@
-<script>
-  let icon = "/app-32x32.png";
-</script>
-
-<aside>
+<div class="aside">
   <div class="logo-wrap">
-    <img src={icon} alt="logo" />
+    <img src="/app-32x32.png" alt="logo" />
   </div>
   <div class="social">
     <span>
@@ -23,7 +19,7 @@
       </a>
     </span>
   </div>
-</aside>
+</div>
 
 <style>
   .logo-wrap {
@@ -36,9 +32,11 @@
     width: 32px;
     height: 32px;
   }
-  aside {
-    width: 100%;
-    height: 100vh;
+  .aside {
+    z-index: 10;
+    position: fixed;
+    width: 64px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,5 +54,11 @@
   }
   .social > span {
     margin-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
   }
 </style>
