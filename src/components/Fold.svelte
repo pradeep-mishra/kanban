@@ -1,4 +1,4 @@
-<div class="aside">
+<aside class="aside">
   <div class="logo-wrap">
     <img src="/app-32x32.png" alt="logo" />
   </div>
@@ -19,7 +19,7 @@
       </a>
     </span>
   </div>
-</div>
+</aside>
 
 <style>
   .logo-wrap {
@@ -32,7 +32,7 @@
     width: 32px;
     height: 32px;
   }
-  .aside {
+  aside {
     z-index: 10;
     position: fixed;
     width: 64px;
@@ -56,9 +56,19 @@
     margin-bottom: 10px;
   }
 
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+  @media only screen and (max-width: 499px) {
+    aside {
+      width: 100%;
+      height: 64px;
+      flex-direction: row;
+    }
+    .logo-wrap {
+      padding-top: 15px;
+    }
+    .social {
+      flex-direction: row;
+      padding-top: 15px;
+      padding-right: 15px;
     }
   }
 </style>

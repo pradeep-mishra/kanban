@@ -25,7 +25,7 @@
   main {
     min-height: 100%;
     width: 100%;
-    min-width: 768px;
+    min-width: 460px;
     /*display: grid;
     grid-template-columns: 64px 1fr;
     */
@@ -43,5 +43,12 @@
     padding-right: 20px;
     display: flex;
     flex-direction: column;
+  }
+
+  @media only screen and (max-width: 499px) {
+    .content {
+      padding-left: 10px;
+      padding-top: 50px;
+    }
   }
 </style>

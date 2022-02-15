@@ -42,7 +42,7 @@
   }
   p {
     padding-bottom: 11px;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.4285;
   }
   .footer {
