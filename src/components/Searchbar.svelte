@@ -49,20 +49,19 @@
   .search-box {
     margin-right: 18px;
     width: 160px;
-    position: relative;
     display: inline-block;
     height: 32px;
   }
 
   input {
-    height: 100%;
+    height: 28px;
     width: 100%;
     border-radius: 3px;
     border: 1px solid rgb(223, 225, 230);
     color: rgb(23, 43, 77);
     background: rgb(244, 245, 247) none repeat scroll 0% 0%;
     transition: background 0.1s ease 0s;
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 8px;
   }
   .user-icons {
