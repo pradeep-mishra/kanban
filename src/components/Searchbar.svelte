@@ -21,13 +21,19 @@
   </div>
   <div class="user-icons">
     <div class="icon">
-      <div class="icon-content" size="32" />
+      <div class="icon-content">
+        <span> R </span>
+      </div>
     </div>
     <div class="icon">
-      <div class="icon-content" size="32" />
+      <div class="icon-content" size="32">
+        <span> P </span>
+      </div>
     </div>
     <div class="icon">
-      <div class="icon-content" size="32" />
+      <div class="icon-content">
+        <span> M </span>
+      </div>
     </div>
   </div>
   <button class:my-issue={myIssue == true} on:click={onClick}>
@@ -36,6 +42,12 @@
 </div>
 
 <style>
+  span {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    padding-top: 6px;
+  }
   .my-issue {
     background: rgb(210, 229, 254) none repeat scroll 0% 0% !important;
     color: rgb(0, 82, 204);
@@ -66,7 +78,7 @@
   }
   .user-icons {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     margin: 0px 12px 0px 2px;
   }
   .icon {
@@ -86,6 +98,7 @@
     background-size: cover;
     background-color: rgb(235, 236, 240);
     box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px;
+    text-align: center;
   }
   button {
     border-style: none;

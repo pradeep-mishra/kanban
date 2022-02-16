@@ -54,7 +54,7 @@
   }
   .user-icon {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     margin-left: 2px;
   }
   .icon-wrap {
@@ -70,6 +70,6 @@
     margin-left: -2px;
     background-color: rgb(235, 236, 240);
     box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px;
-    padding-top: 2px;
+    padding-top: 3px;
   }
 </style>
