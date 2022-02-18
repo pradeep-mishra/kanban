@@ -70,5 +70,8 @@
       padding-top: 15px;
       padding-right: 15px;
     }
+    span {
+      margin-left: 5px;
+    }
   }
 </style>
