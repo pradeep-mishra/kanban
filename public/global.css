@@ -1,4 +1,5 @@
-body, #app{
+body,
+#app {
   margin: 0;
   padding: 0;
   min-width: 100vw;
@@ -6,7 +7,11 @@ body, #app{
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
-input, body, #app{
+input,
+body,
+#app {
   font-weight: normal;
-  font-family: -apple-system,BlinkMacSystemFont,Trebuchet MS,Lucida Sans Unicode,Lucida Grande,Lucida Sans,Arial,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS,
+    Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
